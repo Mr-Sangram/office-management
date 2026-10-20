@@ -1,0 +1,6 @@
+{
+  "name": "InteriorCraft - Interior Design & Decoration Management System",
+  "description": "Professional, automated Google Sheets architecture, Apps Script generator, and complete ERP management suite for Interior Design and Decoration Services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

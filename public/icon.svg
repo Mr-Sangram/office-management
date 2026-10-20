@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+  </defs>
+  <!-- Background with safe zone margin -->
+  <rect width="512" height="512" rx="100" fill="url(#bgGrad)" />
+  <rect x="16" y="16" width="480" height="480" rx="90" fill="none" stroke="#F59E0B" stroke-width="4" stroke-opacity="0.3" />
+  
+  <!-- Architectural Column / Classical Pediment Icon -->
+  <g transform="translate(106, 106) scale(0.6)">
+    <!-- Roof / Pediment -->
+    <polygon points="250,50 50,150 450,150" fill="url(#goldGrad)" />
+    <!-- Entablature -->
+    <rect x="40" y="150" width="420" height="30" rx="4" fill="#FBBF24" />
+    <!-- Columns -->
+    <rect x="70" y="200" width="45" height="190" rx="6" fill="url(#goldGrad)" />
+    <rect x="155" y="200" width="45" height="190" rx="6" fill="url(#goldGrad)" />
+    <rect x="235" y="200" width="45" height="190" rx="6" fill="url(#goldGrad)" />
+    <rect x="315" y="200" width="45" height="190" rx="6" fill="url(#goldGrad)" />
+    <rect x="395" y="200" width="45" height="190" rx="6" fill="url(#goldGrad)" />
+    <!-- Column Tops & Bases -->
+    <rect x="60" y="190" width="65" height="15" rx="3" fill="#FDE68A" />
+    <rect x="145" y="190" width="65" height="15" rx="3" fill="#FDE68A" />
+    <rect x="225" y="190" width="65" height="15" rx="3" fill="#FDE68A" />
+    <rect x="305" y="190" width="65" height="15" rx="3" fill="#FDE68A" />
+    <rect x="385" y="190" width="65" height="15" rx="3" fill="#FDE68A" />
+    
+    <rect x="60" y="385" width="65" height="15" rx="3" fill="#FDE68A" />
+    <rect x="145" y="385" width="65" height="15" rx="3" fill="#FDE68A" />
+    <rect x="225" y="385" width="65" height="15" rx="3" fill="#FDE68A" />
+    <rect x="305" y="385" width="65" height="15" rx="3" fill="#FDE68A" />
+    <rect x="385" y="385" width="65" height="15" rx="3" fill="#FDE68A" />
+    <!-- Base Plinth -->
+    <rect x="30" y="405" width="440" height="40" rx="6" fill="#FBBF24" />
+  </g>
+</svg>
